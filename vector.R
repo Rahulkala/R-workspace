@@ -1,0 +1,16 @@
+a = -1:-10
+b = 1.2:7.4
+c = seq(5,9, by = 1)
+print(a)
+print(b)
+print(nchar(c))
+print(sum(c))
+print(mean(c))
+print(class(c))
+t = c("Hello", "World", 1L, 2, 4)
+print(t[c(1,2,3)])
+print(t[c(1,1,1,0,0)])
+print(t[c(TRUE,TRUE,FALSE,FALSE,TRUE)])
+length(t)
+sort(a+c)
+sort(a+c, decreasing = TRUE)

@@ -1,0 +1,8 @@
+rownm = c("R1","R2","R3","R4")
+colnm = c("C1","C2","C3")
+l = list(rownm,colnm)
+a = matrix(c(1:12),nrow=4,byrow=TRUE,dimnames = l)
+print(a)
+print(a[2,3])
+print(a[1,])
+print(a[,2])
